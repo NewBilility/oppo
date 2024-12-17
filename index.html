@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <title>首页</title>
+</head>
+
+<style>
+    h1,
+    h2,
+    h3,
+    h5 {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gengduo-btn {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .gengduo-btn button {
+        width: 95px;
+        height: 48px;
+        border-radius: 10px;
+        border: none;
+    }
+</style>
+
+<body>
+    <header>
+
+        <style>
+            #head-nav {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            }
+
+            #nav-col-1,
+            #nav-col-2,
+            #nav-search,
+            #nav-icon {
+                margin-top: 8px;
+                margin-left: 10px;
+            }
+
+            #nav-col-1 span {
+                margin-left: 20px;
+                color: rgba(0, 0, 0, 0.55);
+            }
+
+
+            #nav-col-2 span {
+                margin-left: 20px;
+                color: rgba(0, 0, 0, 0.55);
+            }
+
+            #nav-icon i {
+                margin-left: 20px;
+            }
+        </style>
+
+        <nav id="head-nav" style="padding:10px  64px; display: flex;">
+            <div id="log">
+                <h2>OPPO</h2>
+            </div>
+
+            <div id="nav-col-1">
+                <span>OPPO产品</span>
+                <span>一加产品</span>
+                <span>关于OPPO</span>
+            </div>
+
+            <div id="nav-col-2" style="margin-left: 800px;">
+                <span>官方商城</span>
+                <span>服务</span>
+                <span>企业服务</span>
+            </div>
+
+            <div id="nav-search" style="margin-left: 20px;">
+                <input type="text" style="border-radius: 5px;" placeholder="搜索OPPO">
+            </div>
+
+            <div id="nav-icon" style="margin-left: auto;">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="header-1"
+            style="margin: 10px auto; padding: 20px 64px; display: flex; gap: 30px; justify-content: space-between; border-bottom:1px solid rgba(0, 0, 0, 0.1); ">
+            <div id="header-1-log">
+                <h1>OPPO 产品</h1>
+            </div>
+            <div id="header-1-show" style="display: flex; justify-content: space-around; gap: 50px;">
+                <div>
+                    <img src="/public/pic/header-1-sj.png" alt="" srcset="" width="40px" height="40px"
+                        style="display: block;">
+                    <span style="display: block; text-align: center;">手机</span>
+                </div>
+
+                <div>
+                    <img src="/public/pic/header-1-pb.png" alt="" srcset="" width="40px" height="40px"
+                        style="display: block;">
+                    <span style="display: block; text-align: center;">平板</span>
+                </div>
+
+                <div>
+                    <img src="/public/pic/header-1-ej.png" alt="" srcset="" width="40px" height="40px"
+                        style="display: block;">
+                    <span style="display: block; text-align: center;">耳机</span>
+                </div>
+                <div>
+                    <img src="/public/pic/header-1-cd.png" alt="" srcset="" width="40px" height="40px"
+                        style="display: block;">
+                    <span style="display: block; text-align: center;">穿戴</span>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            #header-2-cate span {
+                margin-left: 40px;
+            }
+        </style>
+
+        <div id="header-2" style="padding: 8px 64px; display: flex; justify-content: space-between;">
+            <div id="header-2-cate">
+                <span>热门产品</span>
+                <span>Find N 系列</span>
+                <span>Find X 系列</span>
+                <span>A 系列</span>
+                <span>K 系列</span>
+                <span>产品筛选</span>
+            </div>
+            <div id="header-2-db">
+                <span>产品对比 ></span>
+            </div>
+        </div>
+
+        <div id="rmcp">
+            <div id="rmcp-title" style="padding-top: 40px;">
+                <h2 style="text-align: center;"> 热门产品</h2>
+            </div>
+
+            <style>
+                #rmcp-content-pic .rmcp-sj {
+                    width: 322px;
+                    height: 366px;
+                    background-color: #fafafa;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+            </style>
+            <div id="rmcp-content" style="width: 1320px; margin: 10px auto;">
+                <div id="rmcp-pic-row" style="display: flex; gap: 10px;">
+                    <div id="rmcp-content-pic" style="display: flex; ">
+                        <div class="rmcp-sj">
+                            <img src="/public/pic/rmcp-sj-1.png" alt="" srcset="" width="144px" height="199px">
+                        </div>
+                    </div>
+                    <div id="rmcp-content-pic" style="display: flex; ">
+                        <div class="rmcp-sj">
+                            <img src="/public/pic/rmcp-sj-1.png" alt="" srcset="" width="144px" height="199px">
+                        </div>
+                    </div>
+                    <div id="rmcp-content-pic" style="display: flex; ">
+                        <div class="rmcp-sj">
+                            <img src="/public/pic/rmcp-sj-1.png" alt="" srcset="" width="144px" height="199px">
+                        </div>
+                    </div>
+                    <div id="rmcp-content-pic" style="display: flex; ">
+                        <div class="rmcp-sj">
+                            <img src="/public/pic/rmcp-sj-1.png" alt="" srcset="" width="144px" height="199px">
+                        </div>
+                    </div>
+
+                </div>
+
+                <style>
+                    #rmcp-content-text-row {
+                        margin-top: 20px;
+                        display: flex;
+                        gap: 230px
+                    }
+
+                    .rmcp-content-text-row-item h5 {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                </style>
+                <div id="rmcp-content-text-row">
+                    <div class="rmcp-content-text-row-item">
+                        <h3>Find X8 Pro</h3>
+                        <h5>抬手就出片 抓拍氛围感 </h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                    <div class="rmcp-content-text-row-item">
+                        <h3>Find X8 Pro</h3>
+                        <h5>抬手就出片 抓拍氛围感</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                    <div class="rmcp-content-text-row-item">
+                        <h3>Find X8 Pro</h3>
+                        <h5>抬手就出片 抓拍氛围感</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                    <div class="rmcp-content-text-row-item">
+                        <h3>Find X8 Pro</h3>
+                        <h5>抬手就出片 抓拍氛围感</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="findN">
+            <div id="findN-title" style="padding-top: 40px;">
+                <h2 style="text-align: center;"> Find N 系列</h2>
+            </div>
+            <div id="findN-pic" style="display: flex; gap: 10px; width: 1312px; margin: 20px auto;">
+                <img src="/public/pic/findN-1.jpg" alt="" srcset="" width="652px" height="366px">
+                <img src="/public/pic/findN-2.jpg" alt="" srcset="" width="322px" height="366px">
+                <img src="/public/pic/findN-3.jpg" alt="" srcset="" width="322px" height="366px">
+            </div>
+            <div id="findN-text"
+                style="width:1312px; padding-bottom:20px; margin: 8px auto; display: flex;justify-content: space-between; ">
+
+                <div id="findN-text-1">
+                    <h3>Find N3</h3>
+                    <h5>影像新时代，也是折叠下一代</h5>
+                </div>
+
+                <div id="findN-text-2">
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">了解更多</button>
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">立即购买</button>
+                </div>
+            </div>
+
+            <style>
+                #findN-pic-2 .findN-pic-2-item {
+                    padding: 0 4px;
+                    width: 322px;
+                    height: 476px;
+                }
+
+                .findN-pic-2-item-pic {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fafafa;
+                    width: 322px;
+                    height: 366px;
+                }
+
+                .findN-pic-2-item-text h5 {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .findN-pic-2-item-text {
+                    margin-top: 20px;
+                }
+            </style>
+
+            <div id="findN-pic-2"
+                style="width: 1320px; margin: 20px auto; display: flex; justify-content: space-around;">
+                <div class="findN-pic-2-item">
+                    <div class="findN-pic-2-item-pic">
+                        <img src="/public/pic/findN-pic-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findN-pic-2-item-text">
+                        <h3>Find N3</h3>
+                        <h5>超轻薄折叠，超光影三摄，国密认证安全芯片，专业哈苏人像</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findN-pic-2-item">
+                    <div class="findN-pic-2-item-pic">
+                        <img src="/public/pic/findN-pic-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findN-pic-2-item-text">
+                        <h3>Find N3</h3>
+                        <h5>超轻薄折叠，超光影三摄，国密认证安全芯片，专业哈苏人像</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findN-pic-2-item">
+                    <div class="findN-pic-2-item-pic">
+                        <img src="/public/pic/findN-pic-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findN-pic-2-item-text">
+                        <h3>Find N3</h3>
+                        <h5>超轻薄折叠，超光影三摄，国密认证安全芯片，专业哈苏人像</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findN-pic-2-item">
+                    <div class="findN-pic-2-item-pic">
+                        <img src="/public/pic/findN-pic-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findN-pic-2-item-text">
+                        <h3>Find N3</h3>
+                        <h5>超轻薄折叠，超光影三摄，国密认证安全芯片，专业哈苏人像</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="findX">
+            <div id="findX-title" style="padding-top: 40px;">
+                <h2 style="text-align: center;"> Find X 系列</h2>
+            </div>
+            <div id="findX-pic" style="display: flex; gap: 10px; width: 1312px; margin: 20px auto;">
+                <img src="/public/pic/findX-8.png" alt="" srcset="" width="652px" height="366px">
+                <img src="/public/pic/findX-8-1.jpg" alt="" srcset="" width="322px" height="366px">
+                <img src="/public/pic/findX-8-2.jpg" alt="" srcset="" width="322px" height="366px">
+            </div>
+            <div id="findX-text"
+                style="width:1312px; padding-bottom:20px; margin: 8px auto; display: flex;justify-content: space-between; ">
+
+                <div id="findX-text-1">
+                    <h3>OPPO Find X8 系列</h3>
+                    <h5>抬手就出片 抓拍氛围感 </h5>
+                </div>
+
+                <div id="findX-text-2">
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">了解更多</button>
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">立即购买</button>
+                </div>
+            </div>
+
+            <style>
+                #findX-pic-2 .findX-pic-2-item {
+                    padding: 0 4px;
+                    width: 322px;
+                    height: 476px;
+                }
+
+                .findX-pic-2-item-pic {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fafafa;
+                    width: 322px;
+                    height: 366px;
+                }
+
+                .findX-pic-2-item-text h5 {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .findX-pic-2-item-text {
+                    margin-top: 20px;
+                }
+            </style>
+
+            <div id="findX-pic-2"
+                style="width: 1320px; margin: 20px auto; display: flex; justify-content: space-around;">
+
+                <div class="findX-pic-2-item">
+                    <div class="findX-pic-2-item-pic">
+                        <img src="/public/pic/findX-sj-1.webp" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findX-pic-2-item-text">
+                        <h3>Find X8 Pro 卫星通信版</h3>
+                        <h5>卫星通信，AI 一键问屏，潮汐引擎 × 天玑 9400，5910mAh 冰川电池</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findX-pic-2-item">
+                    <div class="findX-pic-2-item-pic">
+                        <img src="/public/pic/findX-sj-1.webp" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findX-pic-2-item-text">
+                        <h3>Find X8 Pro 卫星通信版</h3>
+                        <h5>卫星通信，AI 一键问屏，潮汐引擎 × 天玑 9400，5910mAh 冰川电池</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findX-pic-2-item">
+                    <div class="findX-pic-2-item-pic">
+                        <img src="/public/pic/findX-sj-1.webp" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findX-pic-2-item-text">
+                        <h3>Find X8 Pro 卫星通信版</h3>
+                        <h5>卫星通信，AI 一键问屏，潮汐引擎 × 天玑 9400，5910mAh 冰川电池</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="findX-pic-2-item">
+                    <div class="findX-pic-2-item-pic">
+                        <img src="/public/pic/findX-sj-1.webp" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="findX-pic-2-item-text">
+                        <h3>Find X8 Pro 卫星通信版</h3>
+                        <h5>卫星通信，AI 一键问屏，潮汐引擎 × 天玑 9400，5910mAh 冰川电池</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gengduo-btn">
+                <button>查看更多</button>
+            </div>
+        </div>
+
+
+        <div id="reno">
+            <div id="reno-title" style="padding-top: 40px;">
+                <h2 style="text-align: center;"> Reno 系列</h2>
+            </div>
+            <div id="reno-pic" style="display: flex; gap: 10px; width: 1312px; margin: 20px auto;">
+                <img src="/public/pic/reno-1.jpg" alt="" srcset="" width="652px" height="366px">
+                <img src="/public/pic/reno-2.jpg" alt="" srcset="" width="322px" height="366px">
+                <img src="/public/pic/reno-3.jpg" alt="" srcset="" width="322px" height="366px">
+            </div>
+            <div id="reno-text"
+                style="width:1312px; padding-bottom:20px; margin: 8px auto; display: flex;justify-content: space-between; ">
+
+                <div id="reno-text-1">
+                    <h3>OPPO Reno13 Pro</h3>
+                </div>
+
+                <div id="reno-text-2">
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">了解更多</button>
+                    <button style="border-radius: 10px; width: 95px; height: 38px;">立即购买</button>
+                </div>
+            </div>
+
+            <style>
+                #reno-pic-2 .reno-pic-2-item {
+                    padding: 0 4px;
+                    width: 322px;
+                    height: 476px;
+                }
+
+                .reno-pic-2-item-pic {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fafafa;
+                    width: 322px;
+                    height: 366px;
+                }
+
+                .reno-pic-2-item-text h5 {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .reno-pic-2-item-text {
+                    margin-top: 20px;
+                }
+            </style>
+
+            <div id="reno-pic-2"
+                style="width: 1320px; margin: 20px auto; display: flex; justify-content: space-around;">
+
+                <div class="reno-pic-2-item">
+                    <div class="reno-pic-2-item-pic">
+                        <img src="/public/pic/reno-sj-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="reno-pic-2-item-text">
+                        <h3>OPPO Reno13 Pro</h3>
+                        <h5>超美小直屏更强了，AI 高清实况照片，全系 IP69 满级防水</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+                <div class="reno-pic-2-item">
+                    <div class="reno-pic-2-item-pic">
+                        <img src="/public/pic/reno-sj-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="reno-pic-2-item-text">
+                        <h3>OPPO Reno13 Pro</h3>
+                        <h5>超美小直屏更强了，AI 高清实况照片，全系 IP69 满级防水</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+                <div class="reno-pic-2-item">
+                    <div class="reno-pic-2-item-pic">
+                        <img src="/public/pic/reno-sj-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="reno-pic-2-item-text">
+                        <h3>OPPO Reno13 Pro</h3>
+                        <h5>超美小直屏更强了，AI 高清实况照片，全系 IP69 满级防水</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+                <div class="reno-pic-2-item">
+                    <div class="reno-pic-2-item-pic">
+                        <img src="/public/pic/reno-sj-1.png" alt="" srcset="" width="142px" height="199px">
+                    </div>
+                    <div class="reno-pic-2-item-text">
+                        <h3>OPPO Reno13 Pro</h3>
+                        <h5>超美小直屏更强了，AI 高清实况照片，全系 IP69 满级防水</h5>
+                        <h5><span>了解更多</span> <span>立即购买</span></h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="gengduo-btn">
+                <button>查看更多</button>
+            </div>
+        </div>
+
+        <div id="search-region" style="margin-top: 30px; padding: 64px 0px; background-color: #fafafa;">
+            <div id="search-text" style="text-align: center; ">
+                <h3>利用下方搜索框
+                </h3>
+                <h1 style="margin-top: 20px;">可帮您快速查找对应机型
+                </h1>
+            </div>
+
+            <div id="search-option" style="margin: 8px auto; width: 1312px; height: 228px;">
+                <div id="select-1" style="margin-top: 20px;">
+                    <select name="" id=""
+                        style="width: 100%;font-size: 20px; height: 50px; border-radius: 10px; border: none; padding-left: 20px;">
+                        <option value="option1">Find N 系列</option>
+                        <option value="option2">Find X 系列</option>
+                        <option value="option3">Reno 系列</option>
+                        <option value="option3">A 系列</option>
+                        <option value="option3">B 系列</option>
+                    </select>
+                </div>
+
+                <div id="select-2" style="display: flex; justify-content: space-between;margin-top: 20px;">
+                    <select name="" id=""
+                        style="width: 45%;font-size: 20px; height: 50px; border-radius: 10px; border: none; padding-left: 20px;">
+                        <option value="option1">4000-4400mAh(典型值)</option>
+                        <option value="option2">4400-4800mAh(典型值)</option>
+                        <option value="option3">4800-5000mAh(典型值)</option>
+                        <option value="option3">5000-5800mAh(典型值)</option>
+                        <option value="option3">5800-6000mAh(典型值)</option>
+                    </select>
+
+                    <select name="" id=""
+                        style=" width: 45%;font-size: 20px; height: 50px; border-radius: 10px; border: none; padding-left: 20px;">
+                        <option value="option1">6GB+128GB</option>
+                        <option value="option2">8GB+128GB</option>
+                        <option value="option3">12GB+512GB</option>
+                        <option value="option3">16GB+512GB</option>
+                        <option value="option3">其他</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <button
+                    style="width: 160px ; height: 40px; background-color: black; color: white; border-radius: 20px; font-size: 10px;">已为您找到相关结果
+                    82 个</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <style>
+            #footer-1 h3 {
+                color: rgba(255, 255, 255, 0.95);
+            }
+
+            .footer-1-item {
+                margin-top: 80px;
+            }
+
+            .footer-1-item ul li {
+                margin-top: 10px;
+            }
+
+            .footer-1-item a {
+                color: rgba(255, 255, 255, 0.55)
+            }
+
+            #footer-bottom a {
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.55)
+            }
+
+            #footer-2-text-1 h2 {
+                color: rgba(255, 255, 255, 0.95);
+            }
+
+            #footer-2-text-2 i {
+                color: rgba(255, 255, 255, 0.95);
+                margin-left: 10px;
+            }
+        </style>
+
+        <div id="footer-bg" style="margin-top: 20px; background-color: black;">
+
+            <div id="footer-1"
+                style="width: 1312px; padding: 0px; display: flex; justify-content: space-around; margin: 10px auto;">
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>推荐产品</h3>
+                        <div>
+                            <ul>
+                                <li><a href="">Find X8 系列</a></li>
+                                <li><a href="">Reno13 系列</a></li>
+                                <li><a href="">K12 Plus</a></li>
+                                <li><a href="">OPPO Pad 3 Pro</a></li>
+
+                                <li><a href="">OPPO Pad 3</a></li>
+                                <li><a href="">OPPO Watch X</a></li>
+                                <li><a href="">OPPO Enco X3</a></li>
+                                <li><a href="">查看全部手机</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>购买渠道</h3>
+                        <div>
+                            <ul>
+                                <li><a href="">线下体验店</a></li>
+                                <li><a href="">OPPO 商城</a></li>
+                                <li><a href="">官方授权网点</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>探索精彩 OPPO</h3>
+                        <div>
+                            <ul>
+                                <li><a href="">关于 OPPO</a></li>
+                                <li><a href="">新闻中心</a></li>
+                                <li><a href="">OPPO 社区</a></li>
+                                <li><a href="">O 粉会</a></li>
+                                <li><a href="">加入我们</a></li>
+                                <li><a href="">AI 手机白皮书</a></li>
+                                <li><a href="">知识产权</a></li>
+                                <li><a href="">可持续发展</a></li>
+                                <li><a href="">智慧生活系列报告</a></li>
+                                <li><a href="">安全隐私</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>商务合作</h3>
+                        <div>
+                            <ul>
+                                <li><a href="">企业业务</a></li>
+                                <li><a href="">开放平台</a></li>
+                                <li><a href="">廉洁合规</a></li>
+                                <li><a href="">采购平台</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>服务与支持
+                        </h3>
+                        <div>
+                            <ul>
+
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">服务中心查询</a></li>
+                                <li><a href="">用户手册</a></li>
+                                <li><a href="">ColorOS</a></li>
+
+                                <li><a href="">云服务</a></li>
+                                <li><a href="">以旧换新</a></li>
+                                <li><a href="">服务政策</a></li>
+                                <li><a href="">个人信息保护声明</a></li>
+                                <li><a href="">安全响应中心</a></li>
+                                <li><a href="">进网许可标志呈现</a></li>
+                                <li><a href="">欢太</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-1-item">
+                    <div class="footer-1-item-title">
+                        <h3>应用与下载</h3>
+                        <div>
+                            <ul>
+                                <li><a href="">OPPO 商城 APP</a></li>
+                                <li><a href="">预装应用查询</a></li>
+                                <li><a href="">OPPO 升级工具</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="footer-2"
+                style="width: 1312px; padding: 0px; display: flex; justify-content: space-between; margin: 50px auto; border-top: 1px solid rgba(255,255,255,0.55); padding-top: 40px; border-bottom: 1px solid rgba(255,255,255,0.55); padding-bottom: 40px; ">
+                <div id="footer-2-text-1" style="display: flex; gap: 20px;">
+                    <img src="/public/pic/robot.png" width="34px" height="34px" alt="" srcset="">
+                    <h2> 遇到问题？请联系我们</h2>
+                </div>
+                <div id="footer-2-text-2" style="display: flex; align-items:end;">
+                    <i class="fa fa-weixin" aria-hidden="true"></i>
+                    <i class="fa fa-weibo" aria-hidden="true"></i>
+                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div id="footer-bottom" style="padding: 20px 0px; width: 1312px; margin: 0px auto;">
+                <ul style="display: flex; gap: 20px;">
+                    <li><a href="">隐私政策</a></li>
+                    <li><a href="">用户协议</a></li>
+                    <li><a href="">法务规范</a></li>
+                    <li><a href="">知识产权</a></li>
+                    <li><a href="">粤公网安备 xxxxxxxx号</a></li>
+                    <li><a href="">@2024 XX 版权所有 粤ICPxxxxx号</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
